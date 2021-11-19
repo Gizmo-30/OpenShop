@@ -1,0 +1,161 @@
+@edia(prefers-color-scheme: dark) {
+    :root {
+        --primary-color: #313131;
+        --secondary-color: #fff;
+        --black: #0C0C0C;
+        --grey: #BBBBBB;
+    }
+
+    body {
+        background: var(--primary-color);
+    }
+
+    .prenav {
+        background: var(--black);
+    }
+
+    .nav__form,
+    .nav__btn,
+    .header__content-btn {
+        border: 1px solid #FFFFFF;
+        background: var(--primary-color);
+    }
+
+    .nav__btn {
+        padding: 15px 0;
+    }
+
+    .logo::before {
+        content: url('../images/logo-dark.png');
+    }
+
+    .menu__link {
+        color: var(--secondary-color);
+    }
+
+    .menu__link:hover {
+        color: var(--secondary-color);
+    }
+
+
+    .nav__btn:hover {
+        background: var(--black);
+    }
+
+    .header__content-title {
+        color: var(--secondary-color);
+    }
+
+    .header__content-btn:hover,
+    .btns:hover {
+        background: var(--black);
+    }
+
+    .carousel-indicators [data-bs-target] {
+        background: var(--grey);
+    }
+
+    .carousel-indicators [data-bs-target].active {
+        background: var(--secondary-color);
+    }
+
+    .btns {
+        border: 1px solid #FFFFFF;
+        transition: 0.5s;
+    }
+
+    .section2__content {
+        background: var(--primary-color);
+    }
+
+    .section2__content:hover {
+        box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    }
+
+    .btn-hover, .section4__btn {
+        border: 1px solid #FFFFFF;
+    }
+
+    .btn-hover:hover, .section4__btn:hover  {
+        background: var(--black);
+    }
+
+    .stitle,
+    .sprice,
+    .heart {
+        color: var(--secondary-color);
+    }
+
+    .section2__img::before {
+        content: url('../images/s2m1-dark.png');
+    }
+
+    .section2__img2::before {
+        content: url('../images/s2m2-dark.png');
+    }
+
+    .section2__img3::before {
+        content: url('../images/s2m3-dark.png');
+    }
+
+    .section2__img4::before {
+        content: url('../images/s2m4-dark.png');
+    }
+    .section3__img::before {
+        content: url('../images/s3m1-dark.png');
+    }
+
+    .section3__img2::before {
+        content: url('../images/s3m2-dark.png');
+    }
+
+    .section3__img3::before {
+        content: url('../images/s3m3-dark.png');
+    }
+
+    .section3__img4::before {
+        content: url('../images/s3m4-dark.png');
+    }
+    
+    .section4__img::before {
+        content: url('../images/s4m-dark.png');
+    }
+    
+    .section5__img::before {
+        content: url('../images/s5m1-dark.png');
+    }
+
+    .section5__img2::before {
+        content: url('../images/s5m2-dark.png');
+    }
+
+    .section5__img3::before {
+        content: url('../images/s5m3-dark.png');
+    }
+
+    .section5__img4::before {
+        content: url('../images/s5m4-dark.png');
+    }
+
+    .h2 {
+        color: var(--secondary-color);
+    }
+
+    .section4__logo::before {
+        content: url('../images/section4__logo-dark.png');
+    }
+
+    .section4__title {
+        color: var(--secondary-color);
+    }
+
+    .footer {
+        background: var(--black);
+    }
+}
+
+@media(max-width: 965px) {
+    .menu__link {
+        margin-bottom: 20px;
+    }
+}

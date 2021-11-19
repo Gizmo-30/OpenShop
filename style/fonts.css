@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'noto-sans-light';
+    src: url('../fonts/NatoSans/noto-sans-light.ttf');
+}
+
+@font-face {
+    font-family: 'noto-sans-medium';
+    src: url('../fonts/NatoSans/noto-sans-medium.ttf');
+}
+
+@font-face {
+    font-family: 'noto-sans-semi-bold';
+    src: url('../fonts/NatoSans/noto-sans-semi-bold.ttf');
+}
+
+@font-face {
+    font-family: 'noto-sans-regular';
+    src: url('../fonts/NatoSans/noto-sans-regular.ttf');
+}
+
+@font-face {
+    font-family: 'fontawesome-brands';
+    src: url('../fonts/FontAwesome/fa-brands-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'fontawesome-duotone';
+    src: url('../fonts/FontAwesome/fa-duotone-900.woff2');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'fontawesome-light';
+    src: url('../fonts/FontAwesome/fa-light-300.woff2');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'fontAwesome';
+    src: url('../fonts/FontAwesome/fa-regular-400.woff2');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'fontawesome-solid';
+    src: url('../fonts/FontAwesome/fa-solid-900.woff2');
+    font-weight: 900;
+}
+
+.fab {
+    font-family: 'fontawesome-brands';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.fad {
+    font-family: 'fontawesome-duotone';
+    font-style: normal;
+    font-weight: 900;
+}
+
+.fa,
+.far,
+.fal,
+.fas {
+    font-family: 'fontAwesome';
+    font-style: normal;
+}
