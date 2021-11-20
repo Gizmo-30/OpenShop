@@ -683,18 +683,16 @@ nav:last-child ul {
     display: none;
 }
 
-.page-item.active .page-link::after {
-    content: '';
-    color: #000;
-}
-
 .page-link:hover {
     background: none;
     color: #ABABAB;
 }
 
 .page-link:focus {
+    background: 0;
     box-shadow: none;
+    color: #ABABAB;
+    outline: 0;
 }
 
 .page-item.active .page-link {
@@ -719,6 +717,11 @@ nav:last-child ul {
     margin-left: 12px;
 }
 
+.section25__nav {
+    bottom: -90px;
+    right: 50%;
+    left: 50%;
+}    
 
 
 /* 2 END */
