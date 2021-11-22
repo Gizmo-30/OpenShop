@@ -70,7 +70,7 @@
         box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
     }
 
-    .btn-hover, .section4__btn {
+    .btn-hover, .section4__btn, .section32__btn {
         border: 1px solid #FFFFFF;
     }
 
@@ -88,7 +88,13 @@
     .section25__description,
     .page-item.active .page-link,
     .section25__nav-icon,
-    .page-item:last-child .page-link {
+    .page-item:last-child .page-link,
+    .s31__content-title,
+    .s31__content-price,
+    .s31__content-subtitle,
+    .s31__content-link,
+    .section32__title,
+    .section32__description {
         color: var(--secondary-color);
     }
 
@@ -197,6 +203,23 @@
         content: url('../images/header__content-img2-dark.png');
     }
 
+    .h3m1::before {
+        content: url('../images/h3m1-dark.png');
+    }
+    .h3m2::before {
+        content: url('../images/h3m2-dark.png');
+    }
+    .h3m3::before {
+        content: url('../images/h3m3-dark.png');
+    }
+    .h3m4::before {
+        content: url('../images/h3m4-dark.png');
+    }
+
+    .s21__img::before {
+        content: url('../images/h3s2m1-dark.png');
+    }
+
     .dm2 {
         background: #0C0C0C;
         box-shadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
@@ -213,7 +236,30 @@
     .page-link:hover {
         color: var(--secondary-color);
     }
+
+    .s31__content-btn:hover {
+        background: #0C0C0C;
+    }
+
+    .section32__btn:hover {
+        background: var(--black);
+    }
 }
+
+@media(max-width: 1400px) {
+    .section__discount {
+        font-size: 16px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .grid__title, .grid__price {
+        font-size: 20px;
+    }
+
+
+
+} 
 
 @media(max-width: 965px) {
     .menu__link {
