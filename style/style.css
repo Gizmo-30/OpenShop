@@ -124,6 +124,10 @@
     margin-right: 5px;
 }
 
+.navbar-toggler-icon::before {
+    content: '\f0c9';
+}
+
 .menu__content {
     padding: 10px 0;
 }
@@ -241,7 +245,7 @@
     grid-row: span 1;
 }
 
-.__title {
+.grid__title {
     color: var(--preimary-color);
     font-size: 24px;
     letter-spacing: 0.05em;
@@ -285,8 +289,8 @@
 
 .section__block:nth-of-type(3) .section__discount,
 .section__block:nth-of-type(4) .section__discount {
-    top: unset;
     bottom: 20px;
+    top: unset;
     left: 20px;
 }
 
