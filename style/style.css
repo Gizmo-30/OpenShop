@@ -739,6 +739,10 @@ nav:last-child ul {
     list-style: inside !important;
 }
 
+.header3__content {
+    margin-top: 50px;
+}
+
 .header3__content-title {
     color: var(--preimary-color);
     line-height: 70px;
@@ -748,11 +752,14 @@ nav:last-child ul {
 }
 
 .header3__content-price  {
+    display: block;
     color: var(--preimary-color);
     line-height: 30px;
     font-size: 24px;
     letter-spacing: 0.05em;
     font-family: var(--nos-medium);
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .header3__content-link {
@@ -788,7 +795,8 @@ nav:last-child ul {
 
 .header3__content-list {
     padding: 0;
-    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 .header3__content-subtitle {
@@ -799,4 +807,26 @@ nav:last-child ul {
     font-family: var(--nos-medium);
 }
 
+.h3m2,  
+.h3m3 {
+    margin-bottom: 30px;    
+}
+
+
+.h3m1::before{
+    content: url('../images/header3__content-img.png');
+}
+.h3m2::before{
+    content: url('../images/header3__content-img2.png');
+}
+.h3m3::before{
+    content: url('../images/header3__content-im3.png');
+}
+.h3m4::before{
+    content: url('../images/header3__content-img4.png');
+}
+
+.h3m2 {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+}
 /* 3 END */
