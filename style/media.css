@@ -1,4 +1,4 @@
-@edia(prefers-color-scheme: dark) {
+@media(prefers-color-scheme: dark) {
     :root {
         --primary-color: #313131;
         --secondary-color: #fff;
