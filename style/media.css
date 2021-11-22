@@ -61,7 +61,8 @@
         transition: 0.5s;
     }
 
-    .section__content {
+    .section__content,
+    .footer__btn {
         background: var(--primary-color);
     }
 
@@ -84,7 +85,10 @@
     .section4__title,
     .dropdown-item,
     .section25__title,
-    .section25__description {
+    .section25__description,
+    .page-item.active .page-link,
+    .section25__nav-icon,
+    .page-item:last-child .page-link {
         color: var(--secondary-color);
     }
 
@@ -202,6 +206,13 @@
         background: var(--secondary-color);
     }
 
+    .page-item.active .page-link::after {
+        border-color: var(--secondary-color);
+    }
+    
+    .page-link:hover {
+        color: var(--secondary-color);
+    }
 }
 
 @media(max-width: 965px) {

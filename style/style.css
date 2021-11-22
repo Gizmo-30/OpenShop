@@ -671,12 +671,17 @@ nav:last-child ul {
     background: none;
     border: none;
     padding: 10px;
+    transition: 0.5s;
 }
 
 .page-item .page-link::after {
     content: '';
     border-right: 2px solid #ABABAB;
     margin: 0 10px;
+}
+
+.page-item.active .page-link::after {
+    border-color: #000;
 }
 
 .page-item:last-child .page-link::after {
